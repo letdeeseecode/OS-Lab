@@ -23,7 +23,7 @@ Write a C program to create a user level thread using system call pthread_create
 *Problem 7:*
 Write a C program to handle the reception of INTERRUPT FROM THE KEYBOARD signal by executing a particular (user) function, which function is responsible for creating a child process by using fork() system call. Also, the child process will take an input N (N is the no. of terms to generate the Fibonacci series) from the user and generate the Fibonacci series up to N terms. Then the child process will send the Fibonacci series terms one by one to the parent process by using pipe() system call and the parent process will read the Fibonacci series terms one by one and will display it.
 
-*Problem 8:
+*Problem 8:*
 Write a C program which will be able to read a file using read() system call. Now you provide a mechanism to set a lock by using fcntl() system call and to release the lock by using the same fcntl() system call.
 Now run the program from two different terminals simultaneously and demonstrate that if one process has got the lock, then that process only can read the file. But the other one is not permitted to read the file until the lock is released by the first process. That means, only one process who acquires the lock can read the file at any instant of time.
 
